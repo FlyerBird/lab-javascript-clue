@@ -187,9 +187,10 @@ function pickMystery() {
 // ITERATION 3
 
 function revealMystery(obj) {
-  let resolved = pickMystery()
-  return `${resolved.suspect.firstName} ${resolved.suspect.lastName} killed Mr.Boddy using the ${resolved.weapon.name} in the ${resolved.room.name}`
+  return `${obj.resolved.suspect.firstName} ${obj.resolved.suspect.lastName} killed Mr.Boddy using the ${obj.resolved.weapon.name} in the ${obj.resolved.room.name}`
 }
+
+revealMysterypickMystery()
 
 
 
